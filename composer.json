@@ -1,0 +1,24 @@
+{
+  "name": "damianz5/ezplatform-ee-demo-quick-installer",
+  "description": "Quick installer for eZ Platform Enterprise Edition Demo",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "eZ Platform dev-team",
+      "homepage": "https://github.com/damianz5/ezplatform-ee-demo-quick-installer/graphs/contributors"
+    }
+  ],
+  "require": {
+    "ezsystems/ezpublish-kernel": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "EzSystems\\EzPlatformEEDemoQuickInstallerBundle\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

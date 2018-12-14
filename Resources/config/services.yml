@@ -1,0 +1,8 @@
+services:
+    ezstudio.installer.ee_demo_quick_installer:
+        class: EzSystems\EzPlatformEEDemoQuickInstallerBundle\Installer\Installer
+        parent: ezplatform.installer.clean_installer
+        calls:
+            - [setProjectDir, ["%kernel.project_dir%"]]
+        tags:
+            - {name: ezplatform.installer, type: ezplatform-ee-demo-quick}
